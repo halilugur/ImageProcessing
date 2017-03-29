@@ -27,6 +27,10 @@ public class ResimPaneli extends JPanel {
             System.out.println(e.getMessage());
         }
     }
+    
+    public ResimPaneli(BufferedImage img) {
+        this.img = img;
+    }
 
     public BufferedImage getImg() {
         return img;
