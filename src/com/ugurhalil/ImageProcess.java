@@ -1,4 +1,4 @@
-package ımageprocess;
+package com.ugurhalil;
 
 import java.awt.image.BufferedImage;
 
@@ -14,6 +14,7 @@ public class ImageProcess {
     public static void main(String[] args) {   
         BufferedImage img = ResimIslemleri.readFromFile("image\\lena.jpg");
         double[][] pixel = ResimIslemleri.imageToDouble(img);
+
         ResimIslemleri.yazdir(pixel);
         ResimSahnesi rs = new ResimSahnesi(img);
     }

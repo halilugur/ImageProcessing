@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ımageprocess;
+package com.ugurhalil;
 
 import java.awt.image.BufferedImage;
 import javax.swing.JFrame;
-import sun.java2d.pipe.BufferedBufImgOps;
 
 /**
  *
